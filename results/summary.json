@@ -1,0 +1,94 @@
+{
+  "fitness": 2.06280517578125,
+  "total_seconds": 136.7,
+  "parameters": {
+    "workers": null,
+    "spacing": 6.0,
+    "window": 10,
+    "restarts": 4,
+    "iterations": 10,
+    "seed": 0,
+    "quick": false
+  },
+  "official_evaluations": 13,
+  "per_scenario": {
+    "map1-scenario1": 1.8937,
+    "map1-scenario2": 1.9369,
+    "map1-scenario3": 1.6853,
+    "map1-scenario4": 1.7343,
+    "map1-scenario5": 1.4578,
+    "map2-scenario1": 2.1089,
+    "map2-scenario2": 2.0001,
+    "map2-scenario3": 1.8775,
+    "map2-scenario4": 2.3142,
+    "map2-scenario5": 2.6195,
+    "map3-scenario1": 2.0624,
+    "map3-scenario2": 2.7941,
+    "map3-scenario3": 1.7642,
+    "map3-scenario4": 2.1477,
+    "map3-scenario5": 2.8213,
+    "map4-scenario1": 2.2442,
+    "map4-scenario2": 3.2785,
+    "map4-scenario3": 1.6845,
+    "map4-scenario4": 2.1035,
+    "map4-scenario5": 1.5078,
+    "map5-scenario1": 2.1045,
+    "map5-scenario2": 2.4641,
+    "map5-scenario3": 1.7774,
+    "map5-scenario4": 2.3287,
+    "map5-scenario5": 1.957,
+    "map6-scenario1": 2.2055,
+    "map6-scenario2": 1.9758,
+    "map6-scenario3": 1.4473,
+    "map6-scenario4": 1.2517,
+    "map6-scenario5": 2.336
+  },
+  "timeline": [
+    {
+      "stage": "worker pool ready (11 processes)",
+      "seconds": 26.5
+    },
+    {
+      "stage": "sampled 8262 terrain patches along the 30 paths",
+      "seconds": 27.5
+    },
+    {
+      "stage": "Lloyd clustering done (model cost J = 1.9110, form usage [0.531, 0.172, 0.158, 0.138])",
+      "seconds": 64.1
+    },
+    {
+      "stage": "refinement done",
+      "seconds": 108.8,
+      "history": [
+        2.0752,
+        2.0728,
+        2.0687,
+        2.0628
+      ],
+      "fitness": 2.0628
+    },
+    {
+      "stage": "verified with udp.fitness(x)",
+      "seconds": 136.7,
+      "fitness": 2.0628
+    }
+  ],
+  "refine_trace": [
+    [
+      67.61,
+      2.0752
+    ],
+    [
+      77.95,
+      2.0728
+    ],
+    [
+      88.26,
+      2.0687
+    ],
+    [
+      98.52,
+      2.0628
+    ]
+  ]
+}

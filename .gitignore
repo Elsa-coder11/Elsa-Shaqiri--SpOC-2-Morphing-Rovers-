@@ -1,0 +1,9 @@
+# ESA files are downloaded by scripts/fetch_challenge.py, not redistributed
+external/
+data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

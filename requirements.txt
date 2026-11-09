@@ -1,0 +1,7 @@
+# Tested with Python 3.14, torch 2.15 (CPU), torchvision 0.29, numpy 2.5, imageio 2.38.
+# CPU-only PyTorch is enough:  pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+numpy>=1.24
+torch>=2.0
+torchvision>=0.15
+imageio>=2.20
+matplotlib>=3.6
